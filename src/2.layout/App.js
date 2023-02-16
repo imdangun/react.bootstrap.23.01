@@ -7,7 +7,10 @@ import './layout.css'
 //4. import Responsive from './4.Responsive'
 //5. import Responsive from './5.Responsive'
 //6. import Order from './6.Order'
-import Offset from './7.Offset'
+//7. import Offset from './7.Offset'
+//8. import RowColCnt from './8.RowColCnt'
+//11. import Vertical from './11.Vertical'
+import Horizontal from './12.Horizontal'
 
 function App() {
     return (
@@ -17,7 +20,10 @@ function App() {
         //4. <Responsive/>
         //5. <Responsive/>
         //6. <Order/>
-        <Offset/>
+        //7. <Offset/>
+        //8. <RowColCnt/>
+        //11. <Vertical/>
+        <Horizontal/>
     ) 
 }
 
