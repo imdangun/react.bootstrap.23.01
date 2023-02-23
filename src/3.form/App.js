@@ -9,7 +9,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 //7. import Check from './7.Check'
 //8. import Range from './8.Range'
 //9. import MyInputGroup from './9.InputGroup'
-import MyFloatingLabel from './10.FloatingLabel'
+//10. import MyFloatingLabel from './10.FloatingLabel'
+import Validation from './11.Validation'
 
 function App() {
     return (       
@@ -22,7 +23,8 @@ function App() {
         //7. <Check/>
         //8. <Range/>
         //9. <MyInputGroup/>
-        <MyFloatingLabel/>
+        //10. <MyFloatingLabel/>
+        <Validation/>
     ) 
 }
 
