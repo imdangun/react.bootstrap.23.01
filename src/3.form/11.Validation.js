@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import {useState} from 'react'
 import Button from 'react-bootstrap/Button'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -10,6 +10,7 @@ function Validation() {
 
     const handleSubmit = event => {
         const form = event.currentTarget
+        console.log(form) // <form> ~ </form>
         if(form.checkValidity() === false) {
             event.preventDefault()
             event.stopPropagation()
