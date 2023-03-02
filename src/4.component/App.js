@@ -10,7 +10,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 //5. import MyToggleButton from './5.ToggleButton'
 //5. import MyToggleButtonGroup from './5.ToggleButtonGroup'
 //6. import MyButtonGroup from './6.ButtonGroup'
-import MyCard from './7.Card'
+//7. import MyCard from './7.Card'
+//7. import CardLayout from './7.CardLayout'
+//8. import MyCloseButton from './8.CloseButton'
+import MyDropdown from './9.Dropdown'
 
 function App() {
     return (               
@@ -23,7 +26,10 @@ function App() {
         //5. <MyToggleButton/>
         //5. <MyToggleButtonGroup/>
         //6. <MyButtonGroup/>
-        <MyCard/>
+        //7. <MyCard/>
+        //7. <CardLayout/>
+        //8. <MyCloseButton/>
+        <MyDropdown/>
     ) 
 }
 
