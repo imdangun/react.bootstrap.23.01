@@ -7,7 +7,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 //4. import MyBreadcrumb from './4.Breadcrumb'
 //5. import MyButton from './5.Button'
 //5. import LoadButton from './5.LoadButton'
-import MyToggleButton from './5.ToggleButton'
+//5. import MyToggleButton from './5.ToggleButton'
+//5. import MyToggleButtonGroup from './5.ToggleButtonGroup'
+//6. import MyButtonGroup from './6.ButtonGroup'
+import MyCard from './7.Card'
 
 function App() {
     return (               
@@ -17,7 +20,10 @@ function App() {
         //4. <MyBreadcrumb/>
         //5. <MyButton/>
         //5. <LoadButton/>
-        <MyToggleButton/>
+        //5. <MyToggleButton/>
+        //5. <MyToggleButtonGroup/>
+        //6. <MyButtonGroup/>
+        <MyCard/>
     ) 
 }
 
