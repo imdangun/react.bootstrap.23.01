@@ -13,7 +13,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 //7. import MyCard from './7.Card'
 //7. import CardLayout from './7.CardLayout'
 //8. import MyCloseButton from './8.CloseButton'
-import MyDropdown from './9.Dropdown'
+//9. import MyDropdown from './9.Dropdown'
+//10. import MyFigure from './10.Figure'
+//11. import MyListGroup from './11.ListGroup'
+import MyModal from './12.Modal'
 
 function App() {
     return (               
@@ -29,7 +32,10 @@ function App() {
         //7. <MyCard/>
         //7. <CardLayout/>
         //8. <MyCloseButton/>
-        <MyDropdown/>
+        //9. <MyDropdown/>
+        //10. <MyFigure/>
+        //11. <MyListGroup/>
+        <MyModal/>
     ) 
 }
 
