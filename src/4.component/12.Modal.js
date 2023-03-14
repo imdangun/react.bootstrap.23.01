@@ -11,7 +11,7 @@ function MyModal() {
     return (
         <>
             <Button onClick={handleShow}>modal</Button>
-            <Modal show={show} onHide={handleClose}> {/* onHide: closeButton 누를 때 작동한다. */}
+            <Modal show={show} onHide={handleClose} size='sm'> {/* onHide: closeButton 누를 때 작동한다. */}
                 <Modal.Header closeButton>
                     <Modal.Title>title</Modal.Title>
                 </Modal.Header>

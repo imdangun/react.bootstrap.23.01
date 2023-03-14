@@ -16,7 +16,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 //9. import MyDropdown from './9.Dropdown'
 //10. import MyFigure from './10.Figure'
 //11. import MyListGroup from './11.ListGroup'
-import MyModal from './12.Modal'
+//12. import MyModal from './12.Modal'
+//12. import ModalForm from './12.ModalForm'
+//13. import MyNav from './13.Nav'
+import MyNavbar from './14.Navbar'
 
 function App() {
     return (               
@@ -35,7 +38,10 @@ function App() {
         //9. <MyDropdown/>
         //10. <MyFigure/>
         //11. <MyListGroup/>
-        <MyModal/>
+        //12. <MyModal/>
+        //12. <ModalForm/>
+        //13. <MyNav/>
+        <MyNavbar/>
     ) 
 }
 

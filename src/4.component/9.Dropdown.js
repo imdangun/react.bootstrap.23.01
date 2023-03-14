@@ -6,11 +6,6 @@ import ButtonGroup from 'react-bootstrap/Button'
 
 import SplitButton from 'react-bootstrap/SplitButton'
 
-import Nav from 'react-bootstrap/Nav'
-import Navbar from 'react-bootstrap/Navbar'
-import NavDropdown from 'react-bootstrap/NavDropdown'
-import Container from 'react-bootstrap/Container'
-
 function MyDropdown() {
     return (
         <>
@@ -61,24 +56,7 @@ function MyDropdown() {
                     <Dropdown.Divider/>
                     <Dropdown.Item href='#'>3</Dropdown.Item>
                 </Dropdown.Menu>
-            </Dropdown>
-
-            <Navbar variant='dark' bg='dark' expand='lg' className='mt-2'>
-                <Container fluid>
-                    <Navbar.Brand href='#'>home</Navbar.Brand>
-                    <Navbar.Toggle/>
-                    <Navbar.Collapse>
-                        <Nav>
-                            <NavDropdown title='dropdown' menuVariant='dark'>
-                                <NavDropdown.Item href='#'>1</NavDropdown.Item>
-                                <NavDropdown.Item href='#'>2</NavDropdown.Item>
-                                <NavDropdown.Divider/>
-                                <NavDropdown.Item href='#'>3</NavDropdown.Item>
-                            </NavDropdown>
-                        </Nav>
-                    </Navbar.Collapse>
-                </Container>
-            </Navbar>
+            </Dropdown>            
 
             <Dropdown.Menu show className='mt-2'>
                 <Dropdown.Header>header</Dropdown.Header>
