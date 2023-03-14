@@ -19,7 +19,11 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 //12. import MyModal from './12.Modal'
 //12. import ModalForm from './12.ModalForm'
 //13. import MyNav from './13.Nav'
-import MyNavbar from './14.Navbar'
+//14. import MyNavbar from './14.Navbar'
+//15. import MyOffcanvas from './15.Offcanvas'
+//16. import MyPlaceholder from './16.Placeholder'
+//17. import MyTooltip from './17.Tooltip'
+import MyProgressbar from './18.Progressbar'
 
 function App() {
     return (               
@@ -41,7 +45,11 @@ function App() {
         //12. <MyModal/>
         //12. <ModalForm/>
         //13. <MyNav/>
-        <MyNavbar/>
+        //14. <MyNavbar/>
+        //15. <MyOffcanvas/>
+        //16. <MyPlaceholder/>
+        //17. <MyTooltip/>
+        <MyProgressbar/>
     ) 
 }
 
